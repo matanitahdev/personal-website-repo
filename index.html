@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>Matan Itah: Homepage</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
@@ -14,8 +12,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,8 +24,32 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-</head>
 
+  <!-- Custom CSS for Animated Banner -->
+  <style>
+    .animated-banner {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      animation: slide-up 0.5s ease-in-out;
+      z-index: 9999;
+    }
+    
+    @keyframes slide-up {
+      0% {
+        transform: translateY(100%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
 <body>
 
   <!-- ======= Mobile nav toggle button ======= -->
@@ -37,7 +58,6 @@
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="d-flex flex-column">
-
       <div class="profile">
         <img src="assets/img/codericon.png" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Matan Itah</a></h1>
@@ -47,22 +67,16 @@
         </div>
       </div>
       <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-
     </div>
   </header><!-- End Header -->
 
-
-
   <main id="main">
-
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
-
         <div class="section-title">
           <h2>"What keeps me going is goals." <br> - Muhammad Ali</h2>
         </div>
-
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
             <img src="assets/img/me.png" class="img-fluid" alt="">
@@ -70,37 +84,29 @@
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Matan Itah</h3>
             <p align="justify">
-              Welcome! My name is Matan! I'm a programmer, data scientist, and mathematician with a bachelors degree in
-              Mathematics and Computer Science from University of California, San Diego. Currently, I am working as a
-              Senior TECDP Analyst at Cigna. My work is primarily focused on telling compelling business stories about data!
-              It is work that I love and bring energy to every day.
+              Welcome! My name is Matan! I'm a programmer, data scientist, and mathematician with a bachelors degree in Mathematics and Computer Science from University of California, San Diego. Currently, I am working as a Senior TECDP Analyst at Cigna. My work is primarily focused on telling compelling business stories about data! It is work that I love and bring energy to every day.
             </p>
             <div class="row">
               <div class="col-lg-10">
                 <ul>
-
                   <li><i class="icofont-rounded-right"></i> <strong>Title:</strong> TECDP Senior Analyst</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Company:</strong> Cigna
-                  </li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Company:</strong> Cigna</li>
                   <li><i class="icofont-rounded-right"></i> <strong>City:</strong> New York City, USA</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> itah.matan@gmail.com </li>
-
-                </ul>
-              </div>
-              <div class="col-lg-10">
-                <ul>
                 </ul>
               </div>
             </div>
-            <p style="color:blue;font-size:32px;"><a href="matan_resume.pdf"><i
-                  class="icon-file"></i><u>DOWNLOAD CV</u></a></p>
-
+            <p style="color:blue;font-size:32px;"><a href="matan_resume.pdf"><i class="icon-file"></i><u>DOWNLOAD CV</u></a></p>
           </div>
         </div>
-
       </div>
     </section><!-- End About Section -->
-</main><!-- End #main -->
+  </main><!-- End #main -->
+
+  <!-- Animated Banner -->
+  <div class="animated-banner">
+    This is an animated banner. You can customize its content and styling.
+  </div>
 
   <!-- Back to Top Button -->
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
@@ -122,5 +128,4 @@
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
