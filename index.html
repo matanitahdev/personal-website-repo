@@ -29,12 +29,31 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: iPortfolio - v1.5.1
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <style>
+    /* CSS for the animation */
+    @keyframes example {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .animation-container {
+      width: 100%;
+      height: 100px;
+      background-color: #f8f9fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px; /* Adjust margin as needed */
+      animation: example 3s ease-in-out infinite; /* Use animation with defined keyframes */
+    }
+  </style>
 </head>
 
 <body>
@@ -59,8 +78,6 @@
 
     </div>
   </header><!-- End Header -->
-
-
 
   <main id="main">
 
@@ -87,17 +104,11 @@
             <div class="row">
               <div class="col-lg-10">
                 <ul>
-
                   <li><i class="icofont-rounded-right"></i> <strong>Title:</strong> TECDP Senior Analyst</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Company:</strong> Cigna
                   </li>
                   <li><i class="icofont-rounded-right"></i> <strong>City:</strong> New York City, USA</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> itah.matan@gmail.com </li>
-
-                </ul>
-              </div>
-              <div class="col-lg-10">
-                <ul>
                 </ul>
               </div>
             </div>
@@ -111,6 +122,13 @@
     </section><!-- End About Section -->
 
   </main><!-- End #main -->
+
+  <!-- Animation Container -->
+  <div class="animation-container">
+    <h3 style="font-size: 24px; color: #333;">This is a cool animation!</h3>
+  </div>
+
+  <!-- Back to Top Button -->
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
