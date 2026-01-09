@@ -178,16 +178,19 @@
     items: 1
   });
 
-  // Init AOS
+  // Init AOS (if available)
   function aos_init() {
-    AOS.init({
-      duration: 1000,
-      easing: "ease-in-out-back",
-      once: true
-    });
+    if (typeof AOS !== 'undefined') {
+      AOS.init({
+        duration: 1000,
+        easing: "ease-in-out-back",
+        once: true
+      });
+    }
   }
   $(window).on('load', function() {
     aos_init();
   });
+
 
 })(jQuery);
