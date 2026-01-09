@@ -544,7 +544,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
-  opacity: 1;
+  opacity: 0;
   left: 0;
   right: 0;
   bottom: -60px;
@@ -583,6 +583,32 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
+}
+
+.portfolio .portfolio-info {
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.portfolio .portfolio-info h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #173b6c;
+}
+
+.portfolio .portfolio-info p {
+  font-size: 14px;
+  margin: 0;
+  color: #272829;
+  font-style: italic;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info {
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
 }
 
 /*--------------------------------------------------------------
