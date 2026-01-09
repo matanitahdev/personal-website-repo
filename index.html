@@ -20,7 +20,6 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -188,12 +187,6 @@
         </div>
       </div>
 
-      <nav class="nav-menu">
-        <ul>
-          <li><a href="#about" class="scrollto"><i class="icofont-user"></i> <span>About</span></a></li>
-          <li><a href="#portfolio" class="scrollto"><i class="icofont-briefcase"></i> <span>Portfolio</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
       <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
     </div>
   </header><!-- End Header -->
@@ -206,10 +199,10 @@
           <h2>"What keeps me going is goals." <br> - Muhammad Ali</h2>
         </div>
         <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
+          <div class="col-lg-4">
             <img src="assets/img/me.png" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Matan Itah</h3>
             <p align="justify">
               I'm a passionate AI/ML engineer and data scientist with a degree in mathematics and computer science from UC San Diego. 
@@ -239,154 +232,54 @@
           <p>Showcasing the AI/ML research, and software engineering work I do in my free time...</p>
         </div>
 
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-ml">Machine Learning</li>
-              <li data-filter=".filter-llm">LLM</li>
-              <li data-filter=".filter-dl">Deep Learning</li>
-              <li data-filter=".filter-research">Research</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row portfolio-container">
           
           <!-- Portfolio Item 1 -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-ml filter-dl">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/ants_recording.gif" class="img-fluid" alt="Emergant - Ant Colony Simulation">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="Project 1"><i class="icofont-plus"></i></a>
+                <a href="assets/img/ants_recording.gif" data-gall="portfolioGallery" class="venobox" title="Emergant - Ant Colony Simulation"><i class="icofont-plus"></i></a>
                 <a href="https://github.com/matanitah" title="GitHub"><i class="icofont-github"></i></a>
               </div>
             </div>
             <div class="portfolio-info">
-              <h4>ML Project Title</h4>
-              <p>Machine Learning</p>
+              <h4>Emergant</h4>
+              <p>a reinforcement learning project that I built to learn the fundamentals of deep learning using PyTorch and CUDA. It is an ant colony simulation which uses highly computationally efficient reinforcement learning to allow for ant-like behaviors to naturally emerge.</p>
             </div>
           </div>
 
           <!-- Portfolio Item 2 -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-llm">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/graph.jpeg" class="img-fluid" alt="GraphGuru">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Project 2"><i class="icofont-plus"></i></a>
+                <a href="assets/img/graph.jpeg" data-gall="portfolioGallery" class="venobox" title="GraphGuru - Knowledge Graph Library"><i class="icofont-plus"></i></a>
                 <a href="https://github.com/matanitah" title="GitHub"><i class="icofont-github"></i></a>
               </div>
             </div>
             <div class="portfolio-info">
-              <h4>LLM Application</h4>
-              <p>Large Language Models</p>
+              <h4>GraphGuru</h4>
+              <p>An open source library I still actively maintain and use for my own projects. It is a library for knowledge graph construction and manipulation.</p>
             </div>
           </div>
 
           <!-- Portfolio Item 3 -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-ml filter-research">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/evolvium.png" class="img-fluid" alt="Evolvium">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="Project 3"><i class="icofont-plus"></i></a>
+                <a href="assets/img/evolvium.png" data-gall="portfolioGallery" class="venobox" title="Evolvium - Evolution Simulator"><i class="icofont-plus"></i></a>
                 <a href="https://github.com/matanitah" title="GitHub"><i class="icofont-github"></i></a>
               </div>
             </div>
             <div class="portfolio-info">
-              <h4>Research Project</h4>
-              <p>Research</p>
+              <h4>Evolvium</h4>
+              <p>An open source evolution simulator which demonstrates natural selection, population dynamics, and emergence in action.</p>
             </div>
           </div>
 
-          <!-- Portfolio Item 4 -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-dl">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Project 4"><i class="icofont-plus"></i></a>
-                <a href="https://github.com/matanitah" title="GitHub"><i class="icofont-github"></i></a>
-              </div>
-            </div>
-            <div class="portfolio-info">
-              <h4>Deep Learning Model</h4>
-              <p>Deep Learning</p>
-            </div>
-          </div>
 
-          <!-- Portfolio Item 5 -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-llm filter-ml">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Project 5"><i class="icofont-plus"></i></a>
-                <a href="https://github.com/matanitah" title="GitHub"><i class="icofont-github"></i></a>
-              </div>
-            </div>
-            <div class="portfolio-info">
-              <h4>AI-Powered Application</h4>
-              <p>LLM / ML</p>
-            </div>
-          </div>
-
-          <!-- Portfolio Item 6 -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-research">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="Project 6"><i class="icofont-plus"></i></a>
-                <a href="https://github.com/matanitah" title="GitHub"><i class="icofont-github"></i></a>
-              </div>
-            </div>
-            <div class="portfolio-info">
-              <h4>Academic Research</h4>
-              <p>Research</p>
-            </div>
-          </div>
-
-          <!-- Portfolio Item 7 -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ml">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Project 7"><i class="icofont-plus"></i></a>
-                <a href="https://github.com/matanitah" title="GitHub"><i class="icofont-github"></i></a>
-              </div>
-            </div>
-            <div class="portfolio-info">
-              <h4>ML Pipeline</h4>
-              <p>Machine Learning</p>
-            </div>
-          </div>
-
-          <!-- Portfolio Item 8 -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-dl filter-research">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Project 8"><i class="icofont-plus"></i></a>
-                <a href="https://github.com/matanitah" title="GitHub"><i class="icofont-github"></i></a>
-              </div>
-            </div>
-            <div class="portfolio-info">
-              <h4>Neural Network Research</h4>
-              <p>Deep Learning / Research</p>
-            </div>
-          </div>
-
-          <!-- Portfolio Item 9 -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-llm">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Project 9"><i class="icofont-plus"></i></a>
-                <a href="https://github.com/matanitah" title="GitHub"><i class="icofont-github"></i></a>
-              </div>
-            </div>
-            <div class="portfolio-info">
-              <h4>LLM Fine-tuning</h4>
-              <p>Large Language Models</p>
-            </div>
-          </div>
 
         </div>
       </div>
@@ -412,8 +305,6 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
